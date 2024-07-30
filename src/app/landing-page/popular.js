@@ -1,4 +1,4 @@
-export default () => {
+const Popular = () => {
     return (
         <div id="berita-terpopuler" className="h-[250px] mt-[128px] pt-3">
             <div className="flex items-center mb-11">
@@ -52,3 +52,5 @@ export default () => {
         </div>
     );
 }
+
+export default Popular;

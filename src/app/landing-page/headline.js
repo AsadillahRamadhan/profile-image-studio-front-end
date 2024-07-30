@@ -2,7 +2,7 @@ import { faCalendar } from "@fortawesome/free-regular-svg-icons";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default () => {
+const Headline = () => {
     return (
         <div id="headline" className="flex justify-between">
           <div className="w-[505px] h-[402.36px] ">
@@ -26,3 +26,5 @@ export default () => {
         </div>
     );
 }
+
+export default Headline;

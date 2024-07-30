@@ -2,7 +2,7 @@ import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
-export default () => {
+const Footer = () => {
     return (
         <footer className="sticky bottom-0 flex justify-between h-[449px] py-[64px] px-[72px] bg-[#2C3C4D]">
             <div className="w-[1296px] h-[321px] flex gap-x-[72px]">
@@ -55,3 +55,5 @@ export default () => {
         </footer>
     );
 }
+
+export default Footer;

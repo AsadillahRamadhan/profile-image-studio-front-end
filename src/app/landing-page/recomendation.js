@@ -1,7 +1,7 @@
 import { faArrowLeft, faArrowRight, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default () => {
+const Recomendation = () => {
     return (
         <div id="rekomendasi-untuk-anda" className="h-[1018px] mt-32">
           <div className="h-[62px] flex items-center justify-between my-3">
@@ -141,3 +141,5 @@ export default () => {
         </div>
     );
 }
+
+export default Recomendation;

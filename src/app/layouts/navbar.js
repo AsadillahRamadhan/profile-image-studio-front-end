@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useScroll, useMotionValueEvent } from "framer-motion";
 import { useState } from "react";
 
-export default () => {
+const Navbar = () => {
     const { scrollY } = useScroll()
     const [actualY, setActualY] = useState(0);
 
@@ -30,3 +30,5 @@ export default () => {
         </nav>
     );
 }
+
+export default Navbar;

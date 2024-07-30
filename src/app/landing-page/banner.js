@@ -1,4 +1,4 @@
-export default () => {
+const Banner = () => {
     return (
         <div id="banner" className="w-[1296px] h-[528.29px] mt-32 py-11 justify-center">
           <div className="h-[407px] rounded-3xl bg-gray-200"></div>
@@ -10,3 +10,5 @@ export default () => {
         </div>
     );
 }
+
+export default Banner;

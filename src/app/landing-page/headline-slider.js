@@ -1,7 +1,7 @@
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-export default () => {
+const HeadlineSlider = () => {
     return (
         <div id="headline-slider" className="h-[75.43px] flex align-text-bottom gap-x-4 items-end justify-center text-[#828282]">
           <div className="flex items-center gap-x-4">
@@ -14,3 +14,5 @@ export default () => {
         </div>
     )
 }
+
+export default HeadlineSlider;
